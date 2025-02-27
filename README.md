@@ -18,7 +18,7 @@ git push public-repo master
 Thì: git push -f public-repo master
 
 # Cách 2
-Không muốn xóa folder .github đi, mà ta chỉ ignore nó đi bằng cách.
+Không muốn xóa folder .github đi, mà ta chỉ ignore nó đi bằng cách. <br>
   git remote add public-repo https://github.com/congneb/example.git <br>
   git update-index --assume-unchanged .github/workflows/* <br>
   git push -f public-repo master
