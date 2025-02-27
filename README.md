@@ -11,3 +11,8 @@ git commit -m "Auto sync from private into public"
 
 ## 4
 git push public-repo master
+
+## 5. Nếu không push được, mà bị lỗi này
+![image](https://github.com/user-attachments/assets/0e270e29-116f-4bb2-8325-2fa667b84454)
+
+Thì: git push -f public-repo master
